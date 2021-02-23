@@ -1,0 +1,49 @@
+body{
+  background:#fff;
+  height:100%;
+  margin:0;
+  padding:0;
+  font-family:arial, sans-serif;;
+  font-size:14px;
+}
+#main{
+  display:flex;
+  flex-direction: column;
+}
+#topbar{
+  padding:10px;
+  margin: 10px;
+}
+#internal{
+  display:flex;
+  float:right;
+  justify-content: flex-end;
+}
+#gmail{
+  display:inline-block;
+  padding-left: 15px;
+}
+#images{
+  display:inline-block;
+  padding-left: 15px;
+}
+#logo{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  min-height:92px;
+  max-height:300px;
+}
+.logo1
+{
+  height:auto;
+  max-height:92px;
+  margin-top:auto;
+}
+img{
+  max-height: 100%;
+  max-width:100%;
+  object-fit: contain;
+  object-position: center-bottom;
+  width:auto;
+}
